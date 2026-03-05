@@ -6,6 +6,10 @@ Raw Data → Bronze → Silver → Gold → Analytics
 
 The system ingests raw ride data from Amazon S3, performs incremental processing with Auto Loader, applies data validation and CDC logic, and produces analytics-ready datasets for regional managers.
 
+pipeline:
+
+<img src="https://github.com/Sneha-mav/Databricks-lakeflow-pipeline/blob/main/pipeline.png">
+
 ### Bronze Layer:
 Key implementations:<br>
 -> batch ingestion for dimension data <br>
